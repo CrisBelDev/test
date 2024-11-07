@@ -6,7 +6,7 @@ carnet = "12452572"
 # CREACION DEL SERVER WEB
 serverSock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 #poner la ip actual
-serverSock.bind(("192.168.0.11", 5500))
+serverSock.bind(("localhost", 9876))
 serverSock.listen(2)
 
 print("SERVIDOR ESTA EN ESPERA")
